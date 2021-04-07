@@ -1,0 +1,57 @@
+/*бесплатный шрифт с сайта https://www.fonts-online.ru/font/Arounder */
+@font-face {
+    font-family: arounder; /* Имя шрифта */
+    src: url(../font/Arounder.otf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #55baff;
+}
+
+p {
+    font-family: arounder;
+}
+
+header {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat bottom url('../img/DSC_0271_web.png');
+    width: 100%;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #55baff8c, #18557f69);
+    font-family: arounder;
+    height: 30px;
+}
+
+ul.navigation {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.navigation li{
+    display: inline;
+    padding: 0px 20px;
+    font-size: 20px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+ul.navigation li:hover {
+    color: #3097DF;
+}
+
