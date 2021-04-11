@@ -10,6 +10,16 @@ body {
     background-color: #005e8c; /* #55baff */
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
 p {
     font-family: arounder;
 }
@@ -44,15 +54,16 @@ ul.navigation li{
     display: inline;
     padding: 0px 20px;
     font-size: 25px;
-    transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    color: #003D5B;
 }
 
-ul.navigation li:hover {
-    color: #3097DF;
+footer {
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to bottom, #55baff8c, #18557f00);
+    font-family: arounder;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 20px;
 }
 
