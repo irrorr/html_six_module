@@ -4,6 +4,12 @@
     src: url(../font/Arounder.otf); /* Путь к файлу со шрифтом */
 }
 
+/*бесплатный шрифт с сайта https://www.fonts-online.ru/font/Raleway */
+@font-face {
+    font-family: raleway; /* Имя шрифта */
+    src: url(../font/Raleway.ttf); /* Путь к файлу со шрифтом */
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -39,7 +45,7 @@ header {
     position: fixed;
     /*top: 0;*/
     width: 100%;
-    background: linear-gradient(to bottom, #55baff8c, #18557f00);
+    background: linear-gradient(to bottom, #55bbff, #18567f);
     font-family: arounder;
     height: 34px;
 }
@@ -59,7 +65,7 @@ ul.navigation li{
 footer {
     position: fixed;
     bottom: 0;
-    background: linear-gradient(to bottom, #55baff8c, #18557f00);
+    background: linear-gradient(to bottom, #55bbff, #18567f);
     font-family: arounder;
     width: 100%;
     color: white;
@@ -67,3 +73,38 @@ footer {
     height: 20px;
 }
 
+.maintext {
+    font-family: raleway;
+    font-size: 15px;
+    color: white;
+}
+
+.main {
+    display: inline-flex;
+    width: 100%;
+    min-height: calc(100vh - 370px)
+}
+
+.main_center {
+    width: 80%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.main_left, .main_right {
+    width: 10%;
+}
+
+.main_left {
+    background: -webkit-linear-gradient(180deg, rgb(1 118 177 / 47%), rgb(0 0 0 / 0%))
+}
+
+.main_right {
+    background: -webkit-linear-gradient(0deg, rgb(1 118 177 / 47%), rgb(0 0 0 / 0%))
+}
+
+.fs {
+    text-align: center;
+    font-size: 25px;
+}
