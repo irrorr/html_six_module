@@ -26,8 +26,8 @@ a {
     -ms-transition: all 0.2s ease;
 }
 
-p {
-    font-family: arounder;
+.ff {
+    font-family: raleway;
 }
 
 header {
@@ -39,6 +39,7 @@ header {
     width: 100%;
     font-size: 60px;
     color: #ffffff;
+    font-family: arounder;
 }
 
 #navigation {
@@ -82,7 +83,7 @@ footer {
 .main {
     display: inline-flex;
     width: 100%;
-    min-height: calc(100vh - 370px)
+    min-height: calc(100vh - 370px);
 }
 
 .main_center {
@@ -90,6 +91,7 @@ footer {
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
     margin-top: 30px;
     padding-left: 20px;
+    font-family: releway;
 }
 
 .main_left, .main_right {
@@ -107,4 +109,31 @@ footer {
 .fs {
     text-align: center;
     font-size: 25px;
+}
+
+.news {
+    padding: 50px 0 32px;
+}
+
+article {
+    
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    
+}
+
+.article-meta {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
