@@ -13,4 +13,4 @@
 
 Скачать проект на локальный компьютер и запустить ```index.html``` (должен открыть в брайзере по умолчанию)
 
-Также можно ознакомиться с проектом по адресу: ``` https://irrorr.github.io/html_six_module/index.html ```
+Также можно ознакомиться с проектом по адресу: [Окрыть](https://irrorr.github.io/html_six_module/index.html "https://irrorr.github.io/html_six_module/index.html")
