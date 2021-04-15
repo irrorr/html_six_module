@@ -116,7 +116,7 @@ footer {
 }
 
 article {
-    padding-bottom: 30px;
+    padding: 1px 0 30px 15px;
 }
 
 article a {
@@ -165,4 +165,9 @@ article img:hover {
 
 li a:hover {
     color:#303030;
+}
+
+address {
+    text-align: center;
+    color: white;
 }
