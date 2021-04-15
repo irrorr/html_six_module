@@ -132,8 +132,16 @@ article p {
     color: #d2d2d2;
 }
 
-article h2 {
-    
+article:nth-child(2n) {
+    background-color: #18567f;
+}
+
+article:nth-child(-n+2) h2::after {
+    content: "NEW";
+    font-size: 15px;
+    background-color: #d46c6c;
+    color: white;
+    margin-left: 10px;
 }
 
 .article-meta {
